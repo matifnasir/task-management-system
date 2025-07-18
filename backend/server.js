@@ -78,9 +78,9 @@ const initializeApp = async () => {
       console.log(`\n🚀 TMS Backend Server is running!`);
       console.log(`📡 Port: ${PORT}`);
       console.log(`🌍 Environment: ${process.env.NODE_ENV}`);
-      console.log(`💾 Database: ${process.env.DB_NAME} on ${process.env.DB_HOST}:${process.env.DB_PORT}`);
+      console.log(`💾 Database: SQLite (task_management.db)`);
       console.log(`🔗 Health Check: http://localhost:${PORT}/api/health`);
-      console.log(`📋 Make sure XAMPP is running with MySQL on port 3306\n`);
+      console.log(`📋 SQLite database ready for demo\n`);
     });
     
   } catch (error) {
